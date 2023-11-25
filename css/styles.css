@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SF PRO DISPLAY';
-    src: url("/fonts/SFPRODISPLAYREGULAR.woff") format("woff"),
+    src: url("/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
 }
 
 * {
@@ -24,8 +24,8 @@ nav {
 }
 
 .logo img {
-    max-width: 620px;
-    max-height: 550px;
+    max-width: 460px;
+    max-height: 460px;
     width: auto;
     height: auto;
 }
@@ -86,7 +86,7 @@ nav ul {
 
 .slider {
     opacity: 0;
-    transition: opacity .2s;
+    transition: opacity .3s;
     position: absolute;
     width: 100%;
 }
@@ -101,7 +101,6 @@ nav ul {
     cursor: pointer;
     border: none;
     background-color: transparent;
-    transition: 1s;
 }
 
 #prev-button img, #next-button img {
