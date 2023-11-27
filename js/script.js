@@ -63,3 +63,7 @@ function nextImage() {
 
 } */
 
+window.sr = ScrollReveal({ reset: true});
+
+sr.reveal(".welcome", {duration: 3000});
+sr.reveal(".explore", {duration: 4000});
