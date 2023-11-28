@@ -10,8 +10,6 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: 100%;
     background: rgb(23,23,23);
@@ -19,9 +17,8 @@ body {
     font-family: 'SF PRO DISPLAY', Tahoma, Arial, sans-serif;
 }
 
-/* NAV */
-nav {
-    margin-top: 10px;
+header {
+    margin-bottom: 12px;
 }
 
 .logo img {
@@ -35,27 +32,34 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 8px;
+}
+
+/* NAV */
+nav {
     margin-top: 10px;
+    padding-bottom: 8px;
 }
 
 nav a {
-    display: flex;
     text-decoration: none;
     color: #171717;
     font-family: "SF PRO DISPLAY";
 }
 
 nav li {
-    display: flex;
     margin: 0 30px;
     font-size: 22px;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+#hamburger-menu {
+    display: none;
+  }
+  
+#hamburger-menu:checked ~ nav {
+    display: block;
+  }
 
 .underline {
     text-decoration: underline 1.8px orange;
@@ -63,12 +67,17 @@ nav ul {
 
 /* Home Page */
 /* Slider */
-h1 {
+.welcome-container {
+    background-color: #ffffff;
+}
+
+.welcome-container h1 {
     display: flex;
-    margin-top: 70px;
     justify-content: center;
     color: #171717;
-    font-size: 34px;
+    font-size: 40px;
+    letter-spacing: .08rem;
+    padding-top: 100px;
 }
 
 .container-slider {
@@ -77,9 +86,8 @@ h1 {
     min-height: 90vh;
     align-items: center;
     justify-content: center;
-    margin-top: -90px;
+    margin-top: -80px;
     gap: 0.5rem;
-    background-color: #ffffff;
 }
 
 .container-images {
@@ -126,10 +134,14 @@ h1 {
     transform: rotate(180deg);
 }
 
-.explore {
-    margin-top: 100px;
+.explorer-container h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
     margin-bottom: 50px;
-    font-size: 48px;
+    font-size: 52px;
+    letter-spacing: .08rem;
+    padding-top: 60px;
 }
 
 .explore-images {
@@ -142,6 +154,7 @@ h1 {
     margin: 0 auto;
     gap: 28px;
     cursor: pointer;
+    margin-bottom: 0;
 }
 
 .explore-images img {
@@ -150,6 +163,83 @@ h1 {
     height: 220px;
     border-radius: 14px;
 }
+
+.explorer-container {
+    margin-bottom: 100px;
+    margin-top: -20px;
+}
+
+.discover-container {
+    padding-bottom: 10px;
+    margin-top: 0px;
+    padding-top: -250px;
+}
+
+.discover-container h1 {
+    color: #ffffff;
+    font-size: 52px;
+    letter-spacing: .08rem;
+    text-shadow: #171717 1.5px -1px;
+    margin-top: -250px;
+}
+
+.discover-container {
+    background: url("/images/greg-rakozy.jpg");
+    background-size: cover;
+    position: relative;
+    background-position-x: top;
+    background-position-y: center;
+    min-height: 90vh;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.connect-container {
+    padding-top: 50px;
+}
+
+.connect-container h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    letter-spacing: .08rem;
+    padding-top: 150px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    gap: 50px;
+  }
+  
+  .fa-brands {
+    font-weight: bold;
+    font-size: 74px;
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(235, 156, 10);
+   
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: #171717;
+    color: #ffffff;
+    font-size: 16px;
+  }
 
 /* About Page */
 .test {
