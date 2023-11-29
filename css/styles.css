@@ -50,6 +50,7 @@ nav a {
 nav li {
     margin: 0 30px;
     font-size: 22px;
+    list-style: none;
 }
 
 
@@ -210,6 +211,16 @@ nav li {
     font-size: 52px;
     letter-spacing: .08rem;
     padding-top: 150px;
+}
+
+.connect-container p {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    
+    color: rgb(235, 156, 10);
 }
 
 .social-media {
