@@ -66,10 +66,6 @@ nav li {
 }
 
 /* Home Page */
-.welcome-container {
-    background-color: #ffffff;
-}
-
 .welcome-container p {
     font-weight: bold;
     color: #323232;
@@ -78,6 +74,8 @@ nav li {
 .welcome-container h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     color: #171717;
 }
 
@@ -133,7 +131,7 @@ nav li {
     position: relative;
     background-position-x: center;
     background-position-y: center;
-    min-height: 90vh;
+    min-height: 100vh;
     margin-top: 0px;
     margin-bottom: 100px;
     display: flex;
@@ -216,8 +214,6 @@ nav li {
 .container {
     background-color: #ffffff;
     border-radius: 14px;
-    max-width: 600px;
-    width: 100%;
     box-sizing: 0 3px 5px;
     margin: 0 auto;
     margin-top: 50px;
@@ -226,7 +222,6 @@ nav li {
 }
 
 .header {
-    padding: 24px;
     text-align: center;
     color: #171717;
 }

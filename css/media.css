@@ -3,6 +3,7 @@
     src: url("/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
 }
 
+/* Media queries - Home Page */
 @media screen and (min-width: 300px) {
     .logo img {
         width: 240px;
@@ -55,9 +56,12 @@
     }
 
     .welcome-container h1 {
-        font-size: 24px;
-        letter-spacing: .02rem;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 30px;
         padding-top: 60px;
+        margin: 0 auto;
     }
 
     .welcome-container p {
@@ -140,8 +144,8 @@
     }
 
     .welcome-container h1 {
-        font-size: 24px;
-        letter-spacing: .02rem;
+        font-size: 22px;
+        letter-spacing: .01rem;
         padding-top: 60px;
     }
 
@@ -222,17 +226,17 @@
     }
 
     .welcome-container h1 {
-        font-size: 40px;
-        letter-spacing: .08rem;
-        padding-top: 100px;
+        font-size: 32px;
+        letter-spacing: .02rem;
+        padding-top: 80px;
     }
 
     .welcome-container p {
-        margin-top: 40px;
+        margin-top: 26px;
         display: flex;
         justify-content: center;
         font-size: 22px;
-        letter-spacing: .05rem;
+        letter-spacing: .03rem;
     }
 
     .container-slider {
@@ -300,8 +304,8 @@
     }
 
     .explorer-container h1 {
-        margin-top: 120px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 60px;
         font-size: 52px;
         letter-spacing: .08rem;
         padding-top: 60px;
@@ -317,6 +321,40 @@
         padding: 20px;
         margin-top: 20px;
     }
-    
+}
 
+/* Media queries - Contact Page */
+@media screen and (min-width: 300px) {
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .header {
+        padding: 21px;  
+    } 
+
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 520px;
+        width: 100%;
+    }
+
+    .header {
+        padding: 23px;  
+    } 
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .header {
+        padding: 24px;
+    }
+    
 }
