@@ -49,7 +49,6 @@ nav a {
 
 nav li {
     margin: 0 30px;
-    font-size: 22px;
     list-style: none;
 }
 
@@ -67,18 +66,12 @@ nav li {
 }
 
 /* Home Page */
-/* Slider */
 .welcome-container {
     background-color: #ffffff;
 }
 
 .welcome-container p {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
     font-weight: bold;
-    letter-spacing: .05rem;
     color: #323232;
 }
 
@@ -88,68 +81,21 @@ nav li {
     color: #171717;
 }
 
-.container-slider {
+.explorer-container {
+    margin-bottom: 100px;
+    margin-top: -20px;
+}
+
+.explorer-container p {
     display: flex;
-    width: 100%;
-    min-height: 90vh;
-    align-items: center;
     justify-content: center;
-    margin-top: -120px;
-    gap: 0.5rem;
-}
-
-.container-images {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 700px;
-}
-
-.container-images img {
-    display: flex;
-    width: 680px;
-    height: 420px;
-    border-radius: 14px;
-}
-
-.slider {
-    opacity: 0;
-    transition: opacity .4s;
-    position: absolute;
-    width: 100%;
-    cursor: pointer;
-}
-
-.on {
-    opacity: 1;
-}
-
-#prev-button, #next-button {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-}
-
-#prev-button img, #next-button img {
-    width: 100%;
-    height: 100%;
-}
-
-#prev-button {
-    transform: rotate(180deg);
+    font-weight: bold;
+    color: #323232;
 }
 
 .explorer-container h1 {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
-    margin-bottom: 50px;
-    font-size: 52px;
-    letter-spacing: .08rem;
-    padding-top: 60px;
 }
 
 .explore-images {
@@ -158,23 +104,13 @@ nav li {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    width: 600px;
-    margin: 0 auto;
-    gap: 28px;
     cursor: pointer;
+    margin: 0 auto;
     margin-bottom: 0;
 }
 
 .explore-images img {
     display: flex;
-    width: 380px;
-    height: 220px;
-    border-radius: 14px;
-}
-
-.explorer-container {
-    margin-bottom: 100px;
-    margin-top: -20px;
 }
 
 .discover-container {
@@ -195,13 +131,12 @@ nav li {
     background: url("/images/greg-rakozy.jpg");
     background-size: cover;
     position: relative;
-    background-position-x: top;
+    background-position-x: center;
     background-position-y: center;
     min-height: 90vh;
     margin-top: 0px;
     margin-bottom: 100px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -240,11 +175,7 @@ nav li {
   
   .fa-brands {
     font-weight: bold;
-    font-size: 74px;
-    padding: 20px;
-    margin-top: 20px;
     color: rgb(235, 156, 10);
-   
   }
 
   .footer-container {
@@ -252,7 +183,6 @@ nav li {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
-
     background-color: #171717;
     color: #ffffff;
     font-size: 16px;
