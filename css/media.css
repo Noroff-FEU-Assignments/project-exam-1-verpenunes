@@ -4,12 +4,18 @@
 }
 
 @media screen and (min-width: 300px) {
+    .logo img {
+        width: 240px;
+        height: 140px;
+    }
+
     nav, #hamburger-menu {
         display: none;
         position: absolute;
         background: rgb(23,23,23);
         background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(226,226,226,1) 33%); 
         margin-top: 8px;
+        z-index: 1;
     }
 
     .fa-bars {
@@ -41,6 +47,13 @@
 }
 
 @media screen and (min-width: 600px) {
+    .logo img {
+        max-width: 380px;
+        max-height: 380px;
+        width: auto;
+        height: auto;
+    }
+
     #hamburger-menu, .fa-bars {
         display: none;
     }
@@ -63,13 +76,27 @@
     nav li {
         display: flex;
         align-items: center;
-        padding: 0px;
+        padding: -20px;
         margin-top: 0;
         margin-bottom: 0;
+        font-size: 17px;
+    }
+
+    .welcome-container h1 {
+        font-size: 27px;
+        letter-spacing: .05rem;
+        padding-top: 60px;
     }
 }
 
 @media screen and (min-width: 800px) {
+    .logo img {
+        max-width: 460px;
+        max-height: 460px;
+        width: auto;
+        height: auto;
+    }
+
     #hamburger-menu, .fa-bars {
         display: none;
     }
@@ -94,5 +121,12 @@
         padding: 0px;
         margin-top: 0;
         margin-bottom: 0;
+        font-size: 22px;
+    }
+
+    .welcome-container h1 {
+        font-size: 40px;
+        letter-spacing: .08rem;
+        padding-top: 100px;
     }
 }
