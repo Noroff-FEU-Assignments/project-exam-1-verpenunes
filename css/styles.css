@@ -280,9 +280,10 @@ button:disabled {
     background-color: green;
     padding: 0.6rem;
     color: white;
-    border-radius: 14px;
+    border-radius: 10px;
     margin-bottom: 1rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 

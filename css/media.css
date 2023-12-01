@@ -3,7 +3,7 @@
     src: url("/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
 }
 
-/* Media queries - Home Page */
+/* Media queries - Navigation menu */
 @media screen and (min-width: 300px) {
     .logo img {
         width: 240px;
@@ -46,6 +46,7 @@
         margin: 18px 34px;
     }
 
+    /* Media queries - Home Page */
     .container-slider {
         display: none;
     }
@@ -349,6 +350,9 @@
         padding: 21px;  
     } 
 
+    .message {
+        width: 42%;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -360,6 +364,10 @@
     .header {
         padding: 23px;  
     } 
+
+    .message {
+        width: 38%;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -372,4 +380,7 @@
         padding: 24px;
     }
     
+    .message {
+        width: 26%;
+    }
 }
