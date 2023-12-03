@@ -47,11 +47,15 @@ nav a {
     font-family: "SF PRO DISPLAY";
 }
 
+a:hover {
+    color: rgb(235, 156, 10);
+    transition: 1s;
+}
+
 nav li {
     margin: 0 30px;
     list-style: none;
 }
-
 
 #hamburger-menu {
     display: none;
@@ -242,11 +246,15 @@ input, .form-content textarea {
     width: 100%;
     border-radius: 8px;
     padding: 8px;
-    border: 2px solid #dfdfdf;
+    border: 2px solid #c8c8c8;
 }
 
 textarea {
     margin-bottom: 3px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: grey;
 }
 
 .form button {

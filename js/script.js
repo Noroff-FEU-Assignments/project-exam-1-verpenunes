@@ -38,7 +38,7 @@ btnPrev.addEventListener("click", prevSlider);
 //console.log(slider);
 
 /* 
-Test SLIDE AUTO
+//Test CODE SLIDE AUTO//
 const slides = document.getElementsByClassName("slider");
 let count = 0;
 
@@ -63,8 +63,28 @@ function nextImage() {
 
 } */
 
-window.sr = ScrollReveal({ reset: true});
+/* TEST CODE ZOOM PHOTO
+const button = document.querySelector(".explore-images img");
+const GFG = document.getElementById("zoom-photo");
 
-sr.reveal(".welcome", {duration: 2500});
-sr.reveal(".explore", {duration: 4400});
-sr.reveal(".connect", {duration: 5400});
+let isZoomedIn = false;
+
+button.addEventListener("click", () => {
+    if (isZoomedIn) {
+        zoomin();
+    } else {
+        zoomout();
+    }
+    isZoomedIn = !isZoomedIn;
+});
+
+function zoomin() {
+    const currWidth = GFG.clientWidth;
+    GFG.style.width = (currWidth - 100) + "px";
+}
+
+function zoomout() {
+    const currWidth = GFG.clientWidth;
+    GFG.style.width = (currWidth + 200) + "px";
+
+}*/

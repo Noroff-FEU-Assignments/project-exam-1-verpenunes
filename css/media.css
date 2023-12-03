@@ -104,7 +104,6 @@
         padding: 0px;
         margin-top: 0px;
     }
-
 }
 
 @media screen and (min-width: 600px) {
@@ -274,7 +273,6 @@
         transition: opacity .4s;
         position: absolute;
         width: 100%;
-        cursor: pointer;
     }
     
     .on {
