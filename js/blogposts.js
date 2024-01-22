@@ -25,10 +25,11 @@ async function fetchBlogs(baseUrl) {
             <div class="title">${blogPost.title.rendered}</div>
             <div class="blogText">${blogPost.excerpt.rendered}</div>`;
         });
-    },1000);
+    },1200);
   } 
   catch(error) {
     console.log(error);
+    blogsContainer.innerHTML = displayError("An error occurred when calling the API");
   }
 }
 
@@ -39,10 +40,3 @@ showMore.addEventListener("click", (e) => {
     fetchBlogs(showMoreUrl);
     showMore.remove();
 });
-
-/* <div class="title">${blogPost.title.rendered}</div>
-                                     <div class="blogposts">${blogPost.content.rendered}</div>*/
-
-
-
-/*<div class="featured_post_container"><a href=".html?id=${blogPost.id}"><img src="${blogPost._embedded["wp:featuredmedia"]["0"].source_url}" alt="${blogPost.slug}"</a></div>*/
