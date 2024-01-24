@@ -99,7 +99,9 @@ nav li {
     color: #323232;
 }
 
-.explorer-container h1, .h1-destinations, .explorer-container p, .welcome-container h1, .connect-container h1 {
+.explorer-container h1, 
+.h1-destinations, 
+.explorer-container p, .welcome-container h1, .connect-container h1 {
     display: flex;
     justify-content: center;
 }
@@ -232,7 +234,7 @@ nav li {
     color: #171717;
 }
 
-/* Blog */
+/* Blogposts */
 .h1-destinations {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -254,14 +256,6 @@ nav li {
 .blogposts-container {
     display: flex;
     justify-content: center;
-
-}
-
-.blogposts {
-    display: flex;
-    flex-direction: column;
-
-   
 }
 
 .blogposts img {
@@ -290,13 +284,13 @@ nav li {
     color:#ffffff;
     font-weight: bold;
     font-size: 16px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #load-more:hover {
     background-color: transparent;
     color: orange;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
 }
 
@@ -307,11 +301,20 @@ nav li {
     margin: 0 auto;
     margin-top: 4px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .title:hover {
     color: rgb(235, 156, 10);
     transition: 1s;
+}
+
+/*Blogposts details*/
+.blog-details img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
