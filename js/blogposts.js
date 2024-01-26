@@ -21,9 +21,11 @@ async function fetchBlogs(baseUrl) {
 
         createHTML.forEach(function(blogPost) {
             blogsContainer.innerHTML += `
+            <div class="container-posts">
             <div class="blogposts"><a href="blogdetails.html?id=${blogPost.id}"><img src="${blogPost._embedded["wp:featuredmedia"]["0"].source_url}" alt="${blogPost.slug} class="image1"</a></div>
             <div class="title">${blogPost.title.rendered}</div>
-            <div class="blogText">${blogPost.excerpt.rendered}</div>`;
+            <div class="blogText">${blogPost.excerpt.rendered}</div>
+            </div>`;
         });
     },1200);
   } 

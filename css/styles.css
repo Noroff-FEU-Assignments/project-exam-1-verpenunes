@@ -101,7 +101,7 @@ nav li {
 
 .explorer-container h1, 
 .h1-destinations, 
-.explorer-container p, .welcome-container h1, .connect-container h1 {
+.explorer-container p, .welcome-container h1, .connect-container h1, .about-us {
     display: flex;
     justify-content: center;
 }
@@ -148,7 +148,6 @@ nav li {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    cursor: pointer;
 }
 
 .connect-container {
@@ -192,10 +191,11 @@ nav li {
     background-color: #171717;
     color: #ffffff;
     font-size: 16px;
+    margin-top: 100px;
   }
 
-/* About Page */
-.test {
+/* About Us Page */
+.about-us-container {
     background: url("/images/greg-rakozy.jpg");
     background-size: cover;
     position:relative;
@@ -211,12 +211,21 @@ nav li {
     margin: 0 auto;
 }
 
-.test h1 {
+.about-us-container p {
     color: #ffffff;
-    font-size: 90px;
-    text-shadow: #171717 1.5px -1px;
-    margin-top: 70px;
+    width: 800px;
+    font-size: 20px;
 }
+
+.explore-about-us {
+    color: #ffffff;
+    font-size: 60px;
+    text-shadow: #171717 1.5px -1px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
 
 /* Contact us */
 .container {
@@ -259,11 +268,14 @@ nav li {
 }
 
 .blogposts img {
+    display: flex;
+    justify-content: center;
     width: 100%;
     max-height: 350px;
     max-width: 520px;
     object-fit: contain;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .blogposts a {
@@ -310,11 +322,41 @@ nav li {
 }
 
 /*Blogposts details*/
+.back {
+    background-color: rgb(188, 204, 208);
+    padding: 5px 5px;
+}
+
 .blog-details img {
-    width: 80%;
+    width: 100%;
+    height: 520px;
+    width: 800px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.blogText {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.blog-details-text {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.wp-block-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wp-block-heading p {
+    margin-bottom: 160px;
 }
 
 

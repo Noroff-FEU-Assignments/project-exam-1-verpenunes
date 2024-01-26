@@ -17,10 +17,7 @@ async function fetchBlogDetails() {
         const blogDetails = await response.json();
         console.log(blogDetails);
         
-        createHtml(blogDetails)
-
-        loader.innerHTML = `<div class="loader"></div>`;
-            
+        createHtml(blogDetails)            
     }
     catch(error) {
         console.log(error);
@@ -29,13 +26,10 @@ async function fetchBlogDetails() {
 
 fetchBlogDetails();
 
-
 function createHtml(blogDetail) {
     changeTitle.innerHTML = `Beyond Borders | ${blogDetail.title.rendered}`;
-    blogDetails.innerHTML =  `<div class="blog-details"><img src="${blogDetail._embedded["wp:featuredmedia"]["0"].source_url}" alt="${blogDetail.slug} class="image1"</a></div>
-            <div class="title">${blogDetail.title.rendered}</div>
-            <div class="blogText">${blogDetail.excerpt.rendered}</div>`;
-
+    blogDetails.innerHTML = `<div class="blog-details"><img src="${blogDetail._embedded["wp:featuredmedia"]["0"].source_url}"</a></div>
+                             <div class="blog-details-text">${blogDetail.content.rendered}</div>`;
         };
 
 
