@@ -35,6 +35,13 @@ header {
     margin-top: 8px;
 }
 
+.explorer-container h1, 
+.h1-destinations, 
+.explorer-container p, .welcome-container h1, .connect-container h1, .about-us {
+    display: flex;
+    justify-content: center;
+}
+
 .error {
     border: 1px solid darkred;
     padding: 1rem;
@@ -55,7 +62,7 @@ nav a {
     font-family: "SF PRO DISPLAY";
 }
 
-a:hover {
+li a:hover {
     color: rgb(235, 156, 10);
     transition: 1s;
 }
@@ -78,7 +85,7 @@ nav li {
 }
 
 /* Home Page */
-.welcome-container p {
+.welcome-container p, .explorer-container p {
     font-weight: bold;
     color: #323232;
 }
@@ -92,18 +99,6 @@ nav li {
 .explorer-container {
     margin-bottom: 100px;
     margin-top: -20px;
-}
-
-.explorer-container p {
-    font-weight: bold;
-    color: #323232;
-}
-
-.explorer-container h1, 
-.h1-destinations, 
-.explorer-container p, .welcome-container h1, .connect-container h1, .about-us {
-    display: flex;
-    justify-content: center;
 }
 
 .explore-images {
@@ -176,23 +171,12 @@ nav li {
     margin-top: 120px;
     margin-bottom: 200px;
     gap: 50px;
-  }
+}
   
-  .fa-brands {
+.fa-brands {
     font-weight: bold;
     color: rgb(235, 156, 10);
-  }
-
-  .footer-container {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #171717;
-    color: #ffffff;
-    font-size: 16px;
-    margin-top: 100px;
-  }
+}
 
 /* About Us Page */
 .about-us-container {
@@ -224,8 +208,6 @@ nav li {
     margin-top: 0px;
     margin-bottom: 20px;
 }
-
-
 
 /* Contact us */
 .container {
@@ -313,12 +295,6 @@ nav li {
     margin: 0 auto;
     margin-top: 4px;
     cursor: pointer;
-    transition: 1s;
-}
-
-.title:hover {
-    color: rgb(235, 156, 10);
-    transition: 1s;
 }
 
 /*Blogposts details*/
@@ -358,6 +334,18 @@ nav li {
 .wp-block-heading p {
     margin-bottom: 160px;
 }
+
+/*Footer*/
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #171717;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 100px;
+  }
 
 
 
