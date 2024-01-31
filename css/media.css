@@ -385,11 +385,43 @@
 
 /* Media queries - Blogposts Page */
 @media screen and (min-width: 300px) {
+    .h1-destinations {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
 
+    .blogposts img {
+        height: 560px;
+        width: 420px;
+    }
+
+    .blogposts p {
+        width: 410px;
+        height: 140px;
+        word-wrap: break-word;
+        margin-top: 14px;
+        margin-bottom: 36px;
+    }
 }
 
 @media screen and (min-width: 600px) {
+    .h1-destinations {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
 
+    .blogposts img {
+        height: 520px;
+        width: 380px;
+    }
+
+    .blogposts p {
+        width: 380px;
+        height: 160px;
+        word-wrap: break-word;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (min-width: 800px) {

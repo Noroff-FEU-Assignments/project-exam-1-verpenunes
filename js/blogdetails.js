@@ -1,6 +1,5 @@
 const changeTitle = document.querySelector(".new-title");
 const blogDetails = document.querySelector(".blog-details");
-const loader = document.querySelector(".results");
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -28,9 +27,39 @@ fetchBlogDetails();
 
 function createHtml(blogDetail) {
     changeTitle.innerHTML = `Beyond Borders | ${blogDetail.title.rendered}`;
-    blogDetails.innerHTML = `<div class="blog-details"><img src="${blogDetail._embedded["wp:featuredmedia"]["0"].source_url}"</a></div>
+    blogDetails.innerHTML = `<img src="${blogDetail._embedded["wp:featuredmedia"]["0"].source_url}" alt="${blogDetail.slug}">
                              <div class="blog-details-text">${blogDetail.content.rendered}</div>`;
-        };
+    };
+
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImage");
+const closeButton = document.querySelector(".closeModal");
+
+function openModal(imageSrc) {
+    modal.style.display = "block";
+    modalImg.src = imageSrc;
+    console.log(openModal);
+}
+
+function closeModal() {
+    modal.style.display = "none";
+    console.log(closeModal);
+}
+
+document.querySelector(".modal-container").addEventListener("click", (e) => {
+    e.preventDefault();
+    if (e.target.tagName === "IMG") {
+        openModal(e.target.src);
+    }
+});
+
+closeButton.addEventListener("click", closeModal);
+
+window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+        closeModal();
+    }
+});
 
 
 

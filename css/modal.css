@@ -1,0 +1,27 @@
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(73, 67, 67, 0.95);
+    height: 100%;
+    width: 100%;
+    z-index: 1500;
+    overflow: auto;
+  }
+
+  .modal img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 700px;
+    object-fit: cover;
+}
+
+ .modal-content {
+    display: block;
+    margin: auto;
+    max-height: 80%;
+ }
