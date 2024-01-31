@@ -16,7 +16,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 700px;
+    max-width: 900px;
     object-fit: cover;
 }
 
@@ -25,3 +25,15 @@
     margin: auto;
     max-height: 80%;
  }
+
+ .closeModal {
+  display: none;
+ }
+
+ /* Media queries - Modal */
+@media screen and (min-width: 300px) {
+  .modal img {
+      width: 85%;
+  }
+}
+
