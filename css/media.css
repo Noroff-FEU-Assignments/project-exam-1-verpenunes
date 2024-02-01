@@ -84,9 +84,9 @@
     }
 
     .explore-images img {
-        width: 320px;
+        width: 310px;
         height: 190px;
-        border-radius: 10px;
+        border-radius: 8px;
     }
 
     .explore-images {
@@ -94,7 +94,7 @@
         gap: 10px;
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 80px;
+        justify-content: center;
     }
 
     .fa-brands {
@@ -397,16 +397,16 @@
     }
 
     .blogposts img {
-        height: 560px;
-        width: 420px;
+        height: 420px;
+        width: 310px;
     }
 
     .blogposts p {
-        width: 410px;
-        height: 140px;
+        width: 305px;
+        height: 160px;
         word-wrap: break-word;
         margin-top: 14px;
-        margin-bottom: 36px;
+        margin-bottom: 32px;
     }
 }
 
@@ -471,13 +471,13 @@
 /* Media queries - Blogdetails Page */
 @media screen and (min-width: 300px) {
     .blog-details img {
-        height: 280px;
-        width: 400px;
+        height: 220px;
+        width: 310px;
     }
 
     .blog-details-text {
-        width: 400px;
-        font-size: 16px;
+        width: 310px;
+        font-size: 15px;
     }
 }
 
