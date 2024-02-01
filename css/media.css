@@ -59,10 +59,9 @@
     }
 
     .welcome-container h1 {
-        font-size: 18px;
+        font-size: 30px;
         margin-left: 100px;
         margin-right: 100px;
-        padding-left: 30px;
         padding-top: 60px;
         margin: 0 auto;
         word-break: break-all;
@@ -91,7 +90,7 @@
 
     .explore-images {
         width: 300px;
-        gap: 10px;
+        gap: 22px;
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
@@ -146,7 +145,7 @@
     }
 
     .welcome-container h1 {
-        font-size: 22px;
+        font-size: 38px;
         letter-spacing: .01rem;
         padding-top: 60px;
     }
@@ -222,7 +221,7 @@
     }
 
     .welcome-container h1 {
-        font-size: 32px;
+        font-size: 46px;
         letter-spacing: .02rem;
         padding-top: 80px;
     }
@@ -334,7 +333,7 @@
 @media screen and (min-width: 300px) {
     .container {
         max-width: 480px;
-        width: 100%;
+        width: 90%;
     }
 
     .header {
@@ -495,7 +494,7 @@
 
 @media screen and (min-width: 800px) {
     .blog-details img {
-        height: 520px;
+        height: 450px;
         width: 800px;
     }
 
