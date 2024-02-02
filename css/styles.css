@@ -144,13 +144,9 @@ nav li {
 .discover-container h1 {
     color: #ffffff;
     text-shadow: #171717 1.5px -1px;
-    margin-top: -250px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 100px;
-    padding-bottom: 10px;
-    padding-top: 450px;
 }
 
 .discover-container p {

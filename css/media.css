@@ -91,8 +91,10 @@
         justify-content: center;
     }
 
-    .discover-container {
-        font-size: 36px;
+    .discover-container h1 {
+        font-size: 48px;
+        margin-top: 0px;
+        padding-top: 200px;
     }
 
     .discover-container p {
@@ -174,8 +176,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .discover-container {
-        font-size: 42px;
+    .discover-container h1 {
+        font-size: 52px;
+        margin-top: 0px;
+        padding-top: 200px;
     }
 
     .discover-container p {
@@ -311,6 +315,10 @@
     .discover-container h1 {
         font-size: 60px;
         letter-spacing: .08rem;
+        margin-top: 70px;
+        margin-bottom: 250px;
+        margin-bottom: 100px;
+        padding-top: 170px;
     }
 
     .discover-container p {
