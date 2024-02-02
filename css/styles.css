@@ -52,6 +52,10 @@ header {
 
 /* NAV */
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     margin-top: 10px;
     padding-bottom: 8px;
 }
@@ -67,7 +71,20 @@ li a:hover {
     transition: 1s;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+ }
+
 nav li {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     margin: 0 30px;
     list-style: none;
 }
@@ -85,6 +102,11 @@ nav li {
 }
 
 /* Home Page */
+.welcome-container {
+    background: rgb(23,23,23);
+    background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(226,226,226,1) 33%); 
+}
+
 .welcome-container p, .explorer-container p {
     font-weight: bold;
     color: #323232;
@@ -99,6 +121,11 @@ nav li {
 .explorer-container {
     margin-bottom: 100px;
     margin-top: -20px;
+}
+
+.explorer-container span {
+    font-weight: bold;
+    color: #323232;
 }
 
 .explore-images {
@@ -116,18 +143,23 @@ nav li {
     display: flex;
 }
 
-.discover-container {
-    padding-bottom: 10px;
-    margin-top: 0px;
-    padding-top: -250px;
-}
-
 .discover-container h1 {
     color: #ffffff;
-    font-size: 52px;
-    letter-spacing: .08rem;
     text-shadow: #171717 1.5px -1px;
     margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    padding-top: 450px;
+}
+
+.discover-container p {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: #171717 1.5px -1px;
 }
 
 .discover-container {
@@ -138,11 +170,6 @@ nav li {
     background-position-y: center;
     min-height: 100vh;
     margin-top: 0px;
-    margin-bottom: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 .connect-container {
@@ -219,12 +246,11 @@ nav li {
 
 /* Contact us */
 .container {
+    width: 100%;
     background-color: #ffffff;
     border-radius: 14px;
     box-sizing: 0 3px 5px;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding-bottom: 22px;
 }
 
@@ -237,7 +263,6 @@ nav li {
 .h1-destinations {
     margin-top: 90px;
     margin-bottom: 70px;
-    font-size: 36px;
     letter-spacing: .01rem;
 }
 
@@ -245,11 +270,8 @@ nav li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 530px;
-    height: 160px;
     margin: 0 auto;
     text-decoration: none;
-    margin-bottom: 30px;
 }
 
 .blogposts-container {
@@ -261,8 +283,6 @@ nav li {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-height: 350px;
-    max-width: 520px;
     object-fit: contain;
     cursor: pointer;
     margin: 0 auto;
@@ -317,7 +337,6 @@ nav li {
 
 .blog-details-text {
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 /*Footer*/

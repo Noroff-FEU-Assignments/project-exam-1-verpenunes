@@ -53,11 +53,6 @@
         display: none;
     }
 
-    .welcome-container {
-        background: rgb(23,23,23);
-        background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(226,226,226,1) 33%); 
-    }
-
     .welcome-container h1 {
         font-size: 30px;
         margin-left: 100px;
@@ -96,6 +91,14 @@
         justify-content: center;
     }
 
+    .discover-container {
+        font-size: 36px;
+    }
+
+    .discover-container p {
+        font-size: 32px;
+    }
+
     .fa-brands {
         font-size: 50px;
         padding: 0px;
@@ -117,8 +120,6 @@
 
     nav {
         display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
     }
 
@@ -137,11 +138,6 @@
         margin-top: 0;
         margin-bottom: 0;
         font-size: 17px;
-    }
-
-    .welcome-container {
-        background: rgb(23,23,23);
-        background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(226,226,226,1) 33%); 
     }
 
     .welcome-container h1 {
@@ -178,6 +174,14 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .discover-container {
+        font-size: 42px;
+    }
+
+    .discover-container p {
+        font-size: 40px;
+    }
+
     .fa-brands {
         font-size: 62px;
         padding: 2px;
@@ -196,28 +200,9 @@
     #hamburger-menu, .fa-bars {
         display: none;
     }
-
-    nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-
-    nav ul {
-       display: flex;
-       justify-content: center;
-       margin: 0;
-       padding: 0;
-    }
     
     nav li {
-        display: flex;
-        align-items: center;
-        padding: 0px;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .welcome-container h1 {
@@ -227,7 +212,7 @@
     }
 
     .welcome-container p {
-        margin-top: 26px;
+        margin-top: 116px;
         display: flex;
         justify-content: center;
         font-size: 22px;
@@ -240,7 +225,7 @@
         min-height: 90vh;
         align-items: center;
         justify-content: center;
-        margin-top: -120px;
+        margin-top: -370px;
         gap: 0.5rem;
     }
     
@@ -299,8 +284,6 @@
         letter-spacing: .05rem;
         display: flex;
         justify-content: center;
-        font-weight: bold;
-        color: #323232;
     }
 
     .explore-images img {
@@ -310,7 +293,7 @@
     }
 
     .explorer-container h1 {
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom: 60px;
         font-size: 52px;
         letter-spacing: .08rem;
@@ -320,6 +303,15 @@
     .explore-images {
         width: 600px;
         gap: 28px;
+    }
+
+    .discover-container h1 {
+        font-size: 60px;
+        letter-spacing: .08rem;
+    }
+
+    .discover-container p {
+        font-size: 50px;
     }
 
     .fa-brands {
@@ -333,7 +325,9 @@
 @media screen and (min-width: 300px) {
     .container {
         max-width: 480px;
-        width: 90%;
+        width: 88%;
+        margin-top: 150px;
+        margin-bottom: 398px;
     }
 
     .header {
@@ -348,7 +342,8 @@
 @media screen and (min-width: 600px) {
     .container {
         max-width: 520px;
-        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 350px;
     }
 
     .header {
@@ -363,11 +358,12 @@
 @media screen and (min-width: 800px) {
     .container {
         max-width: 600px;
-        width: 100%;
+        margin-top: 130px;
+        margin-bottom: 270px;
     }
 
     .header {
-        padding: 24px;
+        padding: 26px;
     }
     
     .message {
@@ -392,44 +388,44 @@
 @media screen and (min-width: 300px) {
     .h1-destinations {
         font-size: 24px;
-        margin-bottom: 14px;
     }
 
     .blogposts img {
         height: 420px;
         width: 310px;
+        margin-bottom: -60px;
     }
 
     .blogposts p {
-        width: 305px;
+        width: 310px;
         height: 160px;
-        word-wrap: break-word;
-        margin-top: 14px;
-        margin-bottom: 32px;
+        margin-top: 18px;
     }
 }
 
 @media screen and (min-width: 600px) {
     .h1-destinations {
         font-size: 28px;
-        margin-bottom: 20px;
     }
 
     .blogposts img {
         height: 520px;
         width: 380px;
+        margin-bottom: -80px;
     }
 
     .blogposts p {
         width: 380px;
         height: 160px;
-        word-wrap: break-word;
-        margin-top: 20px;
-        margin-bottom: 40px;
+        margin-top: 10px;
     }
 }
 
 @media screen and (min-width: 800px) {
+    .h1-destinations {
+        font-size: 34px;
+    }
+
     .container-posts {
         display: flex;
         flex-direction: column;
@@ -452,11 +448,15 @@
         margin-left: -420px;
     }
 
+    .blogposts img {
+        max-height: 350px;
+        max-width: 520px;
+        margin-bottom: 8px;
+    }
+
     .blogposts p {
-        width: 350px;
-        height: 160px;
-        margin: 0 auto;
-        text-decoration: none;
+        width: 370px;
+        height: 180px;
         margin-bottom: 30px;
         margin-left: 10px;
         margin-right: 10px;
@@ -475,8 +475,9 @@
     }
 
     .blog-details-text {
-        width: 310px;
+        width: 290px;
         font-size: 15px;
+        margin-top: 50px;
     }
 }
 
@@ -487,8 +488,9 @@
     }
 
     .blog-details-text {
-        width: 580px;
+        width: 520px;
         font-size: 18px;
+        margin-top: 60px;
     }
 }
 
@@ -499,8 +501,9 @@
     }
 
     .blog-details-text {
-        width: 800px;
+        width: 600px;
         font-size: 22px;
+        margin-top: 80px;
     }
 }
 
