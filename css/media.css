@@ -482,26 +482,26 @@
 /* Media queries - Blogdetails Page */
 @media screen and (min-width: 300px) {
     .blog-details img {
-        height: 220px;
-        width: 310px;
+        height: 200px;
+        width: 330px;
     }
 
     .blog-details-text {
-        width: 290px;
-        font-size: 15px;
+        max-width: 270px;
+        font-size: 18px;
         margin-top: 50px;
     }
 }
 
 @media screen and (min-width: 600px) {
     .blog-details img {
-        height: 380px;
+        height: 360px;
         width: 580px;
     }
 
     .blog-details-text {
-        width: 520px;
-        font-size: 18px;
+        max-width: 490px;
+        font-size: 19px;
         margin-top: 60px;
     }
 }
@@ -513,8 +513,8 @@
     }
 
     .blog-details-text {
-        width: 600px;
-        font-size: 22px;
+        max-width: 600px;
+        font-size: 20px;
         margin-top: 80px;
     }
 }
