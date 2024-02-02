@@ -156,6 +156,10 @@ nav li {
     text-shadow: #171717 1.5px -1px;
 }
 
+.discover-container a {
+    text-decoration: none;
+}
+
 .discover-container {
     background: url("/images/greg-rakozy.jpg");
     background-size: cover;
@@ -164,13 +168,19 @@ nav li {
     background-position-y: center;
     min-height: 100vh;
     margin-top: 0px;
+
 }
 
 .connect-container {
     padding-top: 50px;
 }
 
+.connect-container a {
+    text-decoration: none;
+}
+
 .connect-container h1 {
+    color: #171717;
     font-size: 52px;
     letter-spacing: .08rem;
     padding-top: 150px;
