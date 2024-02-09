@@ -211,40 +211,19 @@ nav li {
 /* About Us Page */
 .about-us {
     margin-top: 90px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-size: 36px;
     letter-spacing: .01rem;
 }
 
-.about-us-container {
-    background: url("/images/greg-rakozy.jpg");
-    background-size: cover;
-    position:relative;
-    background-position-x: top;
-    background-position-y: center;
-    min-height: 95vh;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
 .about-us-container p {
-    color: #ffffff;
-    width: 800px;
-    font-size: 20px;
+    color: #171717;
     word-break: break-all;
+    padding: 0px 17px;
 }
 
-.explore-about-us {
-    color: #ffffff;
-    font-size: 60px;
-    text-shadow: #171717 1.5px -1px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+.about-image {
+    max-width: 100%;
 }
 
 /* Contact us */
