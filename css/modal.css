@@ -27,7 +27,10 @@
  }
 
  .closeModal {
-  display: none;
+  display: block;
+  font-size: 60px;
+  color: #ffffff;
+  cursor: pointer;
  }
 
  /* Media queries - Modal */
