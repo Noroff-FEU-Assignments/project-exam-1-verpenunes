@@ -1,8 +1,12 @@
-## Project Exam 1
+#Project Exam 1 - Travel Blog
+
+<img width="1285" alt="bilde" src="https://github.com/Noroff-FEU-Assignments/project-exam-1-verpenunes/assets/106631829/e5fc0392-6abb-429b-8ca3-0519accc9b07">
+
+[Beyond Borders](https://comfy-capybara-ce2203.netlify.app/) was created using HTML, CSS and JavaScript.
 
 ## Goal
 
-To put into practice the skills learned over your first year of studies.
+Project created to practice the skills learned over my first year of studies.
 
 ## Brief
 You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
